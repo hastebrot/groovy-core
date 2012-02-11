@@ -18,9 +18,14 @@
 package org.codehaus.groovy.tools.groovydoc;
 
 import groovy.util.GroovySwingTestCase;
-import org.codehaus.groovy.groovydoc.GroovyClassDoc;
-import org.codehaus.groovy.groovydoc.GroovyMethodDoc;
-import org.codehaus.groovy.groovydoc.GroovyRootDoc;
+
+import org.codehaus.groovy.groovydoc.FileSystemResourceManager;
+import org.codehaus.groovy.groovydoc.GroovyDocTool;
+import org.codehaus.groovy.groovydoc.MockOutputTool;
+import org.codehaus.groovy.groovydoc.element.LinkArgument;
+import org.codehaus.groovy.groovydoc.element.internal.GroovyClassDoc;
+import org.codehaus.groovy.groovydoc.element.internal.GroovyMethodDoc;
+import org.codehaus.groovy.groovydoc.element.internal.GroovyRootDoc;
 
 import java.util.ArrayList;
 import java.util.List;

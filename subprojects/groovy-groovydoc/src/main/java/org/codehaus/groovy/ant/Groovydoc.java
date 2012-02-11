@@ -21,12 +21,12 @@ import org.apache.tools.ant.Task;
 import org.apache.tools.ant.types.DirSet;
 import org.apache.tools.ant.types.Path;
 import org.apache.tools.ant.types.PatternSet;
+import org.codehaus.groovy.groovydoc.ClasspathResourceManager;
+import org.codehaus.groovy.groovydoc.FileOutputTool;
+import org.codehaus.groovy.groovydoc.GroovyDocTool;
+import org.codehaus.groovy.groovydoc.element.LinkArgument;
+import org.codehaus.groovy.groovydoc.templates.GroovyDocTemplateInfo;
 import org.codehaus.groovy.runtime.DefaultGroovyMethods;
-import org.codehaus.groovy.tools.groovydoc.ClasspathResourceManager;
-import org.codehaus.groovy.tools.groovydoc.FileOutputTool;
-import org.codehaus.groovy.tools.groovydoc.GroovyDocTool;
-import org.codehaus.groovy.tools.groovydoc.LinkArgument;
-import org.codehaus.groovy.tools.groovydoc.gstringTemplates.GroovyDocTemplateInfo;
 
 import java.io.File;
 import java.io.FilenameFilter;

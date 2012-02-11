@@ -17,6 +17,9 @@
  */
 package org.codehaus.groovy.tools.groovydoc;
 
+import org.codehaus.groovy.groovydoc.GroovyRootDocBuilder;
+import org.codehaus.groovy.groovydoc.element.SimpleGroovyPackageDoc;
+
 import groovy.util.GroovyTestCase;
 
 /**
